@@ -1,0 +1,14 @@
+{
+    "name": "shopify-cms:2014",
+    "args": [
+      "--env=prod",
+      "--port=2014"
+    ],
+    "script": "server.js",
+    "max_restarts": 50,
+    "max_memory": "1000M",
+    "exec_mode": "fork",
+    "autorestart": true,
+    "env": {
+    }
+  }

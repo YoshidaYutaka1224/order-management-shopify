@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f9126fc.chunk.css",
+    "main.js": "/static/js/main.9c27d962.chunk.js",
+    "main.js.map": "/static/js/main.9c27d962.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8841209d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8841209d.js.map",
+    "static/css/2.671a4a03.chunk.css": "/static/css/2.671a4a03.chunk.css",
+    "static/js/2.35e364ca.chunk.js": "/static/js/2.35e364ca.chunk.js",
+    "static/js/2.35e364ca.chunk.js.map": "/static/js/2.35e364ca.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ba07b7481be746643686545bfb23258c.js": "/precache-manifest.ba07b7481be746643686545bfb23258c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.671a4a03.chunk.css.map": "/static/css/2.671a4a03.chunk.css.map",
+    "static/css/main.5f9126fc.chunk.css.map": "/static/css/main.5f9126fc.chunk.css.map",
+    "static/media/index.scss": "/static/media/zw.98a0162e.svg",
+    "static/media/1.jpg": "/static/media/1.993668ff.jpg",
+    "static/media/4.jpg": "/static/media/4.030267c7.jpg",
+    "static/media/5.jpg": "/static/media/5.30e46659.jpg",
+    "static/media/6.jpg": "/static/media/6.5fdf4fab.jpg",
+    "static/media/7.jpg": "/static/media/7.792f1e91.jpg",
+    "static/media/8.jpg": "/static/media/8.6fe0071a.jpg",
+    "static/media/boy-2.png": "/static/media/boy-2.a11012b6.png",
+    "static/media/endless-logo.png": "/static/media/endless-logo.ee8631c3.png",
+    "static/media/logo.png": "/static/media/logo.4b0d4c61.png",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  }
+}

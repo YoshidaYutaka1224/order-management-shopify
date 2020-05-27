@@ -1,0 +1,242 @@
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+@media only screen and (max-width: 1256px) {
+    /* styles for browsers larger than 1256px; */
+    .column-switch-wrap {
+        width: 30%;
+    }
+    .pagination-wrap {
+        width : 10% !important
+    }
+}
+@media only screen and (max-width: 992px) {
+    /* styles for tablet screen 992px; */
+    .header-logo {
+        width: 157px;
+        margin-bottom: 10px;
+        height: 40px !important;
+        margin-left: 0px;
+        margin-right: 0px !important;
+        display: block !important;
+    }
+    .header-login-logo {
+        margin: 0 auto !important;
+    }
+    html.color-6 body.light-only .page-wrapper .page-body-wrapper .page-sidebar {
+        width: 200px;
+        z-index: 1;
+    }
+    .all-button-wrap {
+        padding : 0px 10px
+    }
+    .sidebar-header span {
+        /* display: none; */
+    }
+    html.color-6 .page-wrapper .page-main-header .main-header-right .nav-right>ul.open {
+        z-index: 10
+    }
+    html.color-6 .bookmark ul li a svg, html.color-6 .switch-sm .switch svg {
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+    .header-title {
+        font-size: 18px;
+    }
+    .table-wrap {
+        overflow-x: auto;
+        width: 100%;
+        background-color: white;
+    }
+    .table-icon {
+        margin-left: 0px !important;
+        margin-top: 5px;
+    }
+    .button-wrap {
+        float: left !important;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .button-wrap:first-child {
+        margin-top: 0px;
+    }
+    .all-button-wrap {
+        padding-left: 15px;
+    }
+    .column-switch-wrap {
+        width: 50%;
+    }
+    .input-search {
+        display: block;
+    }
+    .input-search-wrap {
+        display: block;
+    }
+    html.color-6 .page-main-header .main-header-right .nav-right>ul>li:first-child .search-form .form-group.input-search-wrap:after {
+        display: block;
+    }
+    html.color-6 .page-main-header .main-header-right .nav-right>ul>li:first-child .search-form .form-group.input-search-wrap:before {
+        display: block;
+    }
+    .language-wrap input {
+        margin-left: 0px;
+    }
+    .sidebar-user h6 {
+        overflow-wrap: break-word;
+    }
+    
+    /* .sidebar-wrap{
+        display: none !important;
+    }
+    .sidebar-wrap.open {
+        display: block !important;
+    } */
+    /* html.color-6 body.light-only .page-wrapper .page-body-wrapper .page-sidebar {
+        display: none;
+    }
+    html.color-6 body.light-only .page-wrapper .page-body-wrapper .page-sidebar.open {
+        display: block;
+    } */
+    /* .d-block {
+        display: none !important;
+    } */
+    /* .container-fluid{
+        margin-left: 200px;
+    } */
+    .switches-wrap {
+        margin-bottom: 20px;
+    }
+    .pagination-wrap {
+        width : 12% !important
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    /* default iPad screens */
+    html.color-6 body.light-only .page-wrapper .page-body-wrapper .page-sidebar {
+        width: 100px;
+        z-index: 1;
+    }
+    .sidebar-header span {
+        display: none;
+    }
+    html.color-6 .page-wrapper .page-main-header .main-header-right .nav-right>ul.open {
+        z-index: 10
+    }
+    html.color-6 .bookmark ul li a svg, html.color-6 .switch-sm .switch svg {
+        margin-left: 10px;
+        margin-bottom: 6px;
+        position: absolute;
+        right: 71px;
+        bottom: 13px;
+    }
+    .header-title {
+        font-size: 18px;
+    }
+    html.color-6 .page-main-header .main-header-right {
+        position: relative;
+    }
+    html.color-6 .switch-sm .switch {
+        position: unset;
+    }
+    .pagination-wrap {
+        width : 23% !important
+    }
+    .formik-field_wrap {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .formik-field_wrap table {
+        width: 600px;
+    }
+}
+@media only screen and (max-device-width: 576px) {
+    /* styles for mobile browsers smaller than 576 xs break point; (iPhone) */
+    html.color-6 body.light-only .page-wrapper .page-body-wrapper .page-sidebar {
+        width: 100px;
+        z-index: 1;
+    }
+    .sidebar-header span {
+        display: none;
+    }
+    html.color-6 .page-wrapper .page-main-header .main-header-right .nav-right>ul.open {
+        z-index: 10
+    }
+    html.color-6 .bookmark ul li a svg, html.color-6 .switch-sm .switch svg {
+        margin-left: 10px;
+        margin-bottom: -1px;
+    }
+    .header-title {
+        font-size: 18px;
+    }
+    html.color-6 .page-wrapper .page-main-header .main-header-right .nav-right>ul>li {
+        display: none;
+    }
+    html.color-6 .page-wrapper .page-main-header .main-header-right .nav-right>ul>li:first-child {
+        display: block;
+        width: 100%;
+    }
+    .input-search {
+        display: block;
+    }
+    html.color-6 .page-wrapper .page-main-header .main-header-right .nav-right>ul .search-form .mobile-search svg {
+        display: none;
+    }
+    .input-search-wrap {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    html.color-6 .page-wrapper .page-main-header .main-header-right .nav-right>ul .search-form .form-group {
+        margin-bottom: 10px;
+    }
+    .column-switch-wrap {
+        width: 100%;
+    }
+    .formik-field-left {
+        width: 100% !important;
+    }
+    .formik-field-right {
+        width: 100% !important;
+        margin-top: 15px;
+    }
+    .header-logo {
+        width: 114px;
+        margin-bottom: 10px;
+        height: 34px !important;
+        margin-left: 0px;
+        margin-right: 0px !important;
+        display: block !important;
+    }
+    .header-login-logo {
+        margin: 0 auto !important;
+    }
+    html.color-6 .bookmark ul li a svg, html.color-6 .switch-sm .switch svg {
+        margin-left: 10px;
+        margin-bottom: 6px;
+        position: absolute;
+        right: 51px;
+        bottom: 13px;
+    }
+    .pagination-wrap {
+        width : 22% !important
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 992px) {
+    /* For tablet screen only */
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}

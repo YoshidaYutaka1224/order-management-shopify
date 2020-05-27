@@ -1,0 +1,218 @@
+.header-logo {
+    width: 190px;
+    height: 50px;
+    margin-left: 25px;
+    display: block !important;;
+}
+.header-login-logo {
+    margin: 0 auto !important;
+}
+.form-group input:focus {
+    outline: none;
+}
+.formik-field_wrap {
+    display: inline-block !important ;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+.formik-field-left {
+    width : 40% !important;
+    float: left !important;
+}
+.formik-field-right {
+    width : 40% !important;
+    float: right !important;
+}
+.formik-field_wrap input {
+    border-radius: 5px;
+}
+.header-title {
+    font-size: 25px;
+}
+.input-search {
+    display: none;
+}
+.input-search-wrap {
+    display: none;
+}
+html.color-6 .page-main-header .main-header-right .nav-right>ul>li:first-child .search-form .form-group.input-search-wrap:after {
+    display: none;
+}
+html.color-6 .page-main-header .main-header-right .nav-right>ul>li:first-child .search-form .form-group.input-search-wrap:before {
+    display: none;
+}
+
+.all-single-switch-wrap{
+    display: inline-block;
+    width: 100%;
+}
+
+.column-switch-wrap {
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+.column-switch-wrap button {
+    margin-bottom: 3px;
+}
+
+.column-switch-wrap span {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height : 0px;
+    margin-top: 6px;
+}
+
+.multi-column-wrap {
+    display: inline-block;
+    width: 100%;
+}
+
+.body-switch {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.title-wrap {
+    padding-bottom: 10px;
+    padding-top: 9px;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 4px 0px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.switches-wrap {
+    /* background-color: white; */
+    border: 1px solid;
+    border-color: #80808059;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.body-wrap {
+    background-color: #f6f7fb;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.switches-wrap span {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height : 0px;
+    margin-top: 6px;
+}
+
+.switches-wrap button {
+    margin-bottom: 3px;
+}
+
+.multi-column-wrap{
+    width: 100%;
+    display: inline-block;
+}
+
+.switches-wrap {
+    width: 202px;
+    float: left;
+}
+
+.all-button-wrap {
+    padding : 0px 20px
+}
+
+html.color-6 .customizer-contain>.nav, html.color-6 .customizer-contain>.nav>.nav-tabs, html.color-6 .customizer-links>.nav, html.color-6 .customizer-links>.nav>.nav-tabs {
+    display: none;
+}
+
+
+.ant-modal.full-screen-modal {
+    width: 100% !important;
+    height: 100% !important;
+    top : 0px !important;
+}
+
+.ant-modal.full-screen-modal .ant-modal-close {
+    position: fixed !important;
+    top: 0px !important;
+}
+
+.ant-modal.full-screen-modal .ant-modal-content {
+    height: 100%;
+}
+
+.ant-modal.full-screen-modal .ant-modal-header {
+    position: fixed !important;
+    top: 0px !important;
+    height: 60px !important;
+    width: 100% !important;
+    z-index: 1 !important;
+    box-shadow: 0 0 11px rgba(69,110,243,.13);
+}
+
+.ant-modal.full-screen-modal .ant-modal-body {
+    padding: 0px;
+    width: 100%;
+    top: 71px;
+    margin-top: 60px;
+}
+
+.ant-modal.full-screen-modal .ant-layout-content {
+    padding: 24px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+
+.ant-modal.full-screen-modal .ant-modal-footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    width: 100%;
+    z-index: 1;
+    text-align: left;
+    box-shadow: 0 0 11px rgba(69,110,243,.13);
+    padding: 15px 16px !important;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-modal.full-screen-modal .ant-divider-horizontal {
+    min-width: 50% ;
+    width: 50% ;
+}
+
+.logs-wrap {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.formik-field_wrap tr {
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.formik-field_wrap td, .formik-field_wrap th {
+   margin-left: 10px;
+   width: 300px;
+}
+
+.formik-field_wrap table {
+    width: 100%;
+}
+
+.language-wrap input {
+    margin-left: 5px;
+}
+
+.language-wrap input:first-child{
+    margin-left: 0px;
+}
