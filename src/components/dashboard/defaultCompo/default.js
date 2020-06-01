@@ -17,6 +17,7 @@ class Default extends Component {
             userCount : 0,
             tagCount : 0,
             orderCount : 0,
+            orderTotalCount : 0,
             isLoading : false
         }
     }
@@ -36,7 +37,8 @@ class Default extends Component {
                 this.setState({
                     userCount : responseKpiData.data.userCount,
                     tagCount : responseKpiData.data.tagCount,
-                    orderCount : responseKpiData.data.orderCount
+                    orderCount : responseKpiData.data.orderCount,
+                    orderTotalCount : responseKpiData.data.orderTotalCount
                 })
             }else if (responseKpiData.status == 401) {
                 await setLoginFlag(false);
@@ -55,7 +57,7 @@ class Default extends Component {
     }
 
     render() {
-        const  { userCount, tagCount, orderCount } = this.state;
+        const  { userCount, tagCount, orderCount, orderTotalCount } = this.state;
         const { loginUserData } = this.props;
 
         return (
@@ -155,9 +157,28 @@ class Default extends Component {
                                         <div className="align-self-center text-center">
                                             <ShoppingBag />
                                         </div>
-                                        <div className="media-body"><span className="m-0">{this.props.t('total_order_text')}</span>
+                                        <div className="media-body"><span className="m-0">{this.props.t('total_open_order_text')}</span>
                                             <h4 className="mb-0 counter">
                                             <CountUp className="counter" end={orderCount} />
+                                            </h4>
+                                            <ShoppingBag className="icon-bg" />
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="col-sm-6 col-xl-3 col-lg-6">
+                            <Link to="/order">
+                                <div className="card o-hidden">
+                                    <div className="bg-primary b-r-4 card-body">
+                                        <div className="media static-top-widget">
+                                        <div className="align-self-center text-center">
+                                            <ShoppingBag />
+                                        </div>
+                                        <div className="media-body"><span className="m-0">{this.props.t('total_order_text')}</span>
+                                            <h4 className="mb-0 counter">
+                                            <CountUp className="counter" end={orderTotalCount} />
                                             </h4>
                                             <ShoppingBag className="icon-bg" />
                                         </div>

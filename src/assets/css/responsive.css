@@ -225,6 +225,14 @@
     .pagination-wrap {
         width : 22% !important
     }
+    .button-second-wrap button {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+    .button-second-wrap button:first-child {
+        margin-left: 0px !important;
+        margin-top: 0px;
+    }
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 992px) {
     /* For tablet screen only */

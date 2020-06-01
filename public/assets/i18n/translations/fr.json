@@ -7,6 +7,7 @@
     "toatl_user_text" : "Total de usuarios",
     "total_tag_text" : "Etiquetas totales",
     "total_order_text" : "Pedidos totales",
+    "total_open_order_text" : "Total de órdenes abiertas",
     "USER" : "Usuario",
     "export_csv" : "Exportar CSV",
     "add_button_text" : "AÑADIR",
@@ -133,5 +134,7 @@
     "TAG_SIDE" : "Etiquetas",
     "ORDER_SIDE" : "Pedidos",
     "SETTING_SIDE" : "Configuraciones",
-    "MYLOGS_SIDE" : "Mis registros"
+    "MYLOGS_SIDE" : "Mis registros",
+    "all_without_tags" : "Estado no asignado",
+    "all_with_tags" : "Estado asignado"
 }

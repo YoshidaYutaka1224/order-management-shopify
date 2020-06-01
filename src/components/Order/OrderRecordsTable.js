@@ -48,7 +48,7 @@ class OrderRecordsTable extends React.Component {
         isLoading: true,
         startIndex: 0,
         pagination: {
-          pageSize: 10,
+          pageSize: 20,
           current: 1
         },
         currentCursor : null,
@@ -63,8 +63,8 @@ class OrderRecordsTable extends React.Component {
         hasFilterNextPage : false,
         pageNumber : 0,
         filterPageNumber : 0,
-        limitNumber : 10,
-        filterLimitNumber : 10,
+        limitNumber : 20,
+        filterLimitNumber : 20,
         isFilterSelected : false,
         isDirectFilterSelected : false,
         filterQueryString : "",
@@ -971,8 +971,8 @@ class OrderRecordsTable extends React.Component {
         hasFilterNextPage : false,
         pageNumber : 0,
         filterPageNumber : 0,
-        limitNumber : 10,
-        filterLimitNumber : 10,
+        limitNumber : 20,
+        filterLimitNumber : 20,
         isFilterSelected : false,
         isDirectFilterSelected : false,
         filterQueryString : "",
@@ -1007,8 +1007,8 @@ class OrderRecordsTable extends React.Component {
           hasFilterNextPage : false,
           pageNumber : 0,
           filterPageNumber : 0,
-          limitNumber : 10,
-          filterLimitNumber : 10,
+          limitNumber : 20,
+          filterLimitNumber : 20,
           isFilterSelected : false,
           isDirectFilterSelected : false,
           filterQueryString : "",
@@ -1220,8 +1220,8 @@ class OrderRecordsTable extends React.Component {
         hasFilterNextPage : false,
         pageNumber : 0,
         filterPageNumber : 0,
-        limitNumber : 10,
-        filterLimitNumber : 10,
+        limitNumber : 20,
+        filterLimitNumber : 20,
         isFilterSelected : false,
         isDirectFilterSelected : false,
         filterQueryString : "",
@@ -1732,12 +1732,31 @@ class OrderRecordsTable extends React.Component {
             </div>
           </div>
 
+          <div className="all-button-wrap" style={{ marginTop : "10px"}}>
+            <div style={{ display : "inline-block", width : "100%" }}>
+              <div className="button-wrap button-second-wrap" style={{ float : "left" }}>
+                <Button
+                  style={{ background: primaryColor, color: "#fff", cursor : "pointer"}}
+                  onClick={() => this.callDirectFilter("-tag:*")}
+                >
+                  {this.props.t('all_without_tags')}
+                </Button>
+                <Button
+                    style={{ background: primaryColor, color: "#fff", cursor : "pointer", marginLeft : "20px"}}
+                    onClick={() => this.callDirectFilter("tag:*")}
+                >
+                    {this.props.t('all_with_tags')}
+                </Button>
+              </div>
+            </div>
+          </div>
+
           <div className="all-button-wrap" style={{ marginTop : "10px", marginBottom: "10px"}}>
             <div style={{ display : "inline-block", width : "100%" }}>
               {
                 la.map(listFilterData, (data, index) => {
                   return  (
-                    <div style={{ float : "left", marginLeft : index === 0 ? "0px" : "15px" }}>
+                    <div style={{ float : "left", marginRight : index === 0 ? "15px" : "15px" }}>
                       <Button
                         style={{ background: color[index % 3].value, color: "#fff", cursor : "pointer"}}
                         onClick={() => this.callDirectFilter(data.filter_string)}
